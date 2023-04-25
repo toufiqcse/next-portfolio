@@ -41,7 +41,7 @@ useEffect(() => {
 
 
   return (
-    <div className="flex justify-between px-5 my-1 py-2 ">
+    <div className="flex justify-between px-[1.25em] my-[0.25em] py-[0.5em] ">
       <span className="text-green font-semibold text-2xl border-b-4 border-green  ">{activeItem}</span>
       <div className=" flex space-x-2">
        <NavItem 
@@ -64,12 +64,7 @@ useEffect(() => {
         name="Resume"
         route="/resume"
        />
-       <NavItem 
-        activeItem={activeItem}
-        setActiveItem={setActiveItem}
-        name="Responsive"
-        route="/responsive"
-       />
+       
       </div>
     </div>
   );

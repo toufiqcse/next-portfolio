@@ -26,10 +26,10 @@ const Projects = () => {
   };
 
   return (
-    <div className="px-5 py-2 overflow-y-scroll" style={{ height: "65vh" }}>
+    <div className="px-[1.25em] py-[0.5em] overflow-y-scroll" style={{ height: "65vh" }}>
       <ProjectNavbar handleFilterCategory={handleFilterCategory} active={active} />
 
-      <div className="grid grid-cols-12 gap-4 my-2 relative p-2">
+      <div className="grid grid-cols-12 gap-[1rem] my-[0.5em] relative p-[0.5em]">
         {projects.map((project) => (
           <div
             key={project.name}

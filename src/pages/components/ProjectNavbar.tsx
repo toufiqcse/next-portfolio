@@ -1,19 +1,20 @@
 import React, { FunctionComponent } from 'react';
 import { Category } from '../../../types';
 
-const NavItem:FunctionComponent<{value:Category | 'all' , handleFilterCategory:Function, active:string}> = ({
+const NavItem:FunctionComponent<{value:Category | 'all' , 
+handleFilterCategory:Function, active:string}> = ({
     value,
     handleFilterCategory,
     active
 }) => {
 
-    let className = 'hover:text-green cursor-pointer capitalize duration-300' 
+    let activeText = 'hover:text-green cursor-pointer capitalize duration-300' 
     if(active === value) {
-        className += " text-green"
+        activeText += " text-green"
     }
 
     return (
-        <li className= {className}
+        <li className= {activeText}
         onClick={() => handleFilterCategory(value)}>
             {value}
         </li>
@@ -25,7 +26,7 @@ const NavItem:FunctionComponent<{value:Category | 'all' , handleFilterCategory:F
 
 const ProjectNavbar: FunctionComponent<{handleFilterCategory:Function , active:string}> = (props) => {
     return (
-        <div className='flex px-3 py-2 space-x-3 overflow-x-auto list-none'>
+        <div className='flex px-[0.75em] py-[0.5em] space-x-3 overflow-x-auto list-none'>
             <NavItem value='all' {...props}/>
             <NavItem value='react' {...props}/>
             <NavItem value='mongo' {...props}/>

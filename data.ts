@@ -61,12 +61,7 @@ export const languageSkill:ISkill[] = [
         level: "95%",
         Icon: AiFillHtml5,
     },
-    {
-        id: 7,
-        name:" Node.Js",
-        level: "30%",
-        Icon: FaNodeJs,
-    },
+    
     {
         id: 2,
         name:" CSS",
@@ -82,7 +77,7 @@ export const languageSkill:ISkill[] = [
     {
         id: 6,
         name:" Next",
-        level: "50%",
+        level: "70%",
         Icon: TbBrandNextjs,
     },
     {
@@ -97,6 +92,12 @@ export const languageSkill:ISkill[] = [
         level: "90%",
         Icon: SiTailwindcss,
     },
+    {
+      id: 7,
+      name:" Node.Js",
+      level: "30%",
+      Icon: FaNodeJs,
+  },
     
    
     
@@ -164,102 +165,30 @@ export const tools: ITools[] =[
 export const projectsData: IProjects[] = [
 
     { 
-        name: "COVID Tracker",
+        name: "Travel Tour",
         description:
-          "This app shows a statistical view about corona virus over the world",
-        image_path: "https://raw.githubusercontent.com/Dey-Sumit/Dev-Portfolio-Next-X/main/public/images/covid.jpg",
-        deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-        github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
+          "This app shows most visited place in Bangladesh",
+        image_path: "/tour.png",
+        deployed_url: "https://travel-tour-070.web.app/",
+        github_url: "https://github.com/toufiq70/travel-agency",
         category: ["react"],
         key_techs: ["React", "Chart.js", "Material UI"],
       },
-      {
-        name: "Algorithm Visualizer",
-        image_path: "https://raw.githubusercontent.com/Dey-Sumit/Dev-Portfolio-Next-X/main/public/images/algoVisual.png",
-        deployed_url: "https://visual-algorithm.web.app/",
-        github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
-        category: ["react"],
-        description:
-          "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
-        key_techs: ["React", "firebase", "Framer Motion"],
-      },
+      
     
       {
-        name: "Dev Talks",
-        image_path: "https://raw.githubusercontent.com/Dey-Sumit/Dev-Portfolio-Next-X/main/public/images/dev.jpg",
-        deployed_url: "https://dev-talks.herokuapp.com/",
-        github_url: "https://github.com/Dey-Sumit/Dev-talks",
-        category: ["node", "mongo", "react"],
+        name: "Hotel Management",
+        image_path: "/hotel.png",
+        deployed_url: "https://classic-abashik-hotel.web.app/",
+        github_url: "https://github.com/toufiqcse/classic-abashik-hotel-cilent",
+        category: ["express", "react"],
         description:
-          "Social Media app for developers who can share project,create posts,etc...",
-        key_techs: [
-          "React",
-          "Redux",
-          "Node",
-          "Express",
-          "Mongo",
-          "REST API",
-          "Bootstrap",
-        ],
+          "The World heritage best resort and tourism support center ",
+        key_techs: ["React", "Node", "Express", "Bootstrap"],
       },
     
-      {
-        name: "Realtime Chat App",
-        image_path: "https://raw.githubusercontent.com/Dey-Sumit/Dev-Portfolio-Next-X/main/public/images/chatapp.jpg",
-        deployed_url: "https://sumit-chat.netlify.app/",
-        github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
-        category: ["node", "react"],
-        description:
-          "Basic Realtime Chat App where one can create a room can talk to each other",
-        key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
-      },
+     
     
-      {
-        name: "Tweeter Clone",
-        image_path: "https://raw.githubusercontent.com/Dey-Sumit/Dev-Portfolio-Next-X/main/public/images/tweetme.jpg",
-        deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-        github_url: "https://github.com/Dey-Sumit/tweetme",
-        category: ["django", "react"],
-        description:
-          "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
-        key_techs: ["React", "Django", "Django REST API"],
-      },
-    
-      {
-        name: "Color Classification using tf.js",
-        image_path: "https://raw.githubusercontent.com/Dey-Sumit/Dev-Portfolio-Next-X/main/public/images/color.jpg",
-        deployed_url: "!#",
-        github_url: "https://github.com/Dey-Sumit/color-classification",
-        category: ["express"],
-        description:
-          "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
-        key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
-      },
-      {
-        name: "YouTube using YouTube ",
-        image_path: "https://raw.githubusercontent.com/Dey-Sumit/Dev-Portfolio-Next-X/main/public/images/youtubeClone.png",
-        deployed_url: "https://not-utube.web.app/",
-        github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
-        category: ["express"],
-        description:
-          'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
-        key_techs: [
-          "React",
-          "Redux",
-          "Firebase Auth",
-          "YouTube API",
-          "Sass",
-          "Bootstrap",
-        ],
-      },
-      {
-        name: "Football App",
-        image_path: "https://raw.githubusercontent.com/Dey-Sumit/Dev-Portfolio-Next-X/main/public/images/football.png",
-        deployed_url: "https://o-my-goal.web.app/",
-        github_url: "https://github.com/Dey-Sumit/football-app",
-        category: ["react"],
-        description:
-          "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
-        key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
-      },
+      
+      
 ]
