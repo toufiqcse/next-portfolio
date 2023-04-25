@@ -9,6 +9,7 @@ import {
 import { GiTie } from "react-icons/gi";
 import {useTheme} from 'next-themes'
 import { GoLocation } from "react-icons/go";
+import Image from "next/image";
 const PDF_FILE_URL = "resume.pdf"
 const Sidebar = () => {
 
@@ -29,9 +30,11 @@ const Sidebar = () => {
 
   return (
     <div>
-      <img
+      <Image
+
         src="profile.jpg"
         alt="profile image"
+        
         className="w-[8rem] h-[8rem] rounded-full mx-auto"
       />
       <div className="my-[1em] ">
