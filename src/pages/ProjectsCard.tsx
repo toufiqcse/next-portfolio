@@ -21,7 +21,10 @@ const ProjectsCard: FunctionComponent<{
     key_techs,
   },
 }) => {
-  const Modal = ({ isOpen, onClose }) => {
+  const Modal: FunctionComponent<{ isOpen: any; onClose: any }> = ({
+    isOpen,
+    onClose,
+  }) => {
     return (
       <>
         {isOpen && (
