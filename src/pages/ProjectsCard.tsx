@@ -21,7 +21,7 @@ const ProjectsCard: FunctionComponent<{
     key_techs,
   },
 }) => {
-  const Modal: FunctionComponent<{ isOpen: Boolean; onClose: Boolean }> = ({
+  const Modal: FunctionComponent<{ isOpen: Boolean; onClose: any }> = ({
     isOpen,
     onClose,
   }) => {
