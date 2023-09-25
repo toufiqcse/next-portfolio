@@ -13,11 +13,9 @@ const resume = () => {
           </h5>
           <div>
             <p className="my-[0.5em] text-[1.25rem] font-bold">
-              Frontend Web Developer
+              Frontend Web Developer & Digital Marketer
             </p>
-            <p className="my-[0.75em] ">
-              Off-Carry (2019-Present) Project Assistant
-            </p>
+            <p className="my-[0.75em] ">Off-Carry (2019-Present) Project CEO</p>
           </div>
         </div>
         <div>
@@ -26,7 +24,7 @@ const resume = () => {
           </h5>
           <div>
             <p className="my-[0.5em] text-[1.25rem] font-bold">
-             Diploma in Computer science
+              Diploma in Computer science
             </p>
             <p className="my-[0.75em] ">
               I am currently pursuing in computer science Engineering

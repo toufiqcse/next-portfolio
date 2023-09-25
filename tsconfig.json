@@ -18,6 +18,15 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/pages/components/AutoTyped.jsx",
+    "src/pages/components/Meta.js",
+    "redux/projects/projectReducer.js",
+    "redux/resume/initialStateResume.js",
+    "redux/resume/resumeReducer.js"
+  ],
   "exclude": ["node_modules"]
 }
